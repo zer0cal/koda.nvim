@@ -48,6 +48,6 @@
 ---@field theme? table<"dark"|"light", string>
 ---@field cache? boolean
 ---@field styles? table<string, vim.api.keyset.highlight>
----@field colors? table<string, string> | table<"dark"|"light"|"moss"|"glade"|"gruv", table<string, string>>
+---@field colors? table<string, string> | table<"dark"|"light"|"moss"|"glade"|"gruv"|"cat", table<string, string>>
 ---@field auto? boolean
 ---@field on_highlights? fun(highlights: koda.Highlights, colors: koda.Palette)

@@ -1,13 +1,33 @@
-local variants = { "dark", "light", "moss", "glade" }
+local variants = { "dark", "light", "moss", "glade", "gruv" }
 
 -- Every key from the koda.Palette type that group files reference.
 -- A missing key here means silent `nil` foregrounds/backgrounds at runtime.
 local required_keys = {
-  "bg", "fg", "dim", "line",
-  "keyword", "type", "operator", "comment", "border",
-  "emphasis", "func", "string", "char", "special", "const",
-  "highlight", "info", "success", "warning", "danger",
-  "green", "orange", "red", "pink", "cyan",
+  "bg",
+  "fg",
+  "dim",
+  "line",
+  "keyword",
+  "type",
+  "operator",
+  "comment",
+  "border",
+  "emphasis",
+  "func",
+  "string",
+  "char",
+  "special",
+  "const",
+  "highlight",
+  "info",
+  "success",
+  "warning",
+  "danger",
+  "green",
+  "orange",
+  "red",
+  "pink",
+  "cyan",
 }
 
 describe("Palette integrity:", function()
